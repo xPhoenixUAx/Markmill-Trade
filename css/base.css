@@ -3597,6 +3597,92 @@ textarea.form-control {
   }
 }
 
+@media (min-width: 641px) and (max-width: 980px) {
+  .hero-lime__inner {
+    grid-template-columns: minmax(260px, 38vw) minmax(0, 1fr);
+    min-height: calc(100vh - var(--header-height) - 92px);
+    max-height: 620px;
+  }
+
+  .hero-lime__visual {
+    order: initial;
+    min-height: 500px;
+    margin-top: 0;
+  }
+
+  .hero-lime__circle {
+    left: max(-84px, -8vw);
+    bottom: -76px;
+    width: clamp(430px, 56vw, 560px);
+    transform: none;
+  }
+
+  .hero-lime__slash {
+    right: clamp(-10px, 2vw, 24px);
+    bottom: 235px;
+    width: clamp(112px, 15vw, 160px);
+    height: 62px;
+  }
+
+  .hero-lime__visual img {
+    left: clamp(18px, 4vw, 54px);
+    bottom: -52px;
+    width: clamp(300px, 37vw, 420px);
+    transform: none;
+  }
+
+  .hero-lime__content {
+    order: initial;
+    max-width: none;
+    padding: 48px 24px 48px 18px;
+  }
+
+  .hero-lime__content h1 {
+    font-size: clamp(44px, 6vw, 64px);
+    line-height: 1.04;
+  }
+
+  .hero-lime__content h1::after {
+    width: 126px;
+    height: 8px;
+    margin-left: -112px;
+    border-bottom-width: 3px;
+  }
+
+  .hero-lime__rule {
+    margin-block: 22px 28px;
+  }
+
+  .hero-lime__content p {
+    max-width: 560px;
+    margin-bottom: 26px;
+    font-size: clamp(16px, 2vw, 19px);
+  }
+
+  .hero-lime__actions {
+    gap: 14px;
+  }
+
+  .btn--light,
+  .btn--dark {
+    min-width: 160px;
+    min-height: 50px;
+  }
+
+  .hero-lime__ticker {
+    height: 92px;
+  }
+
+  .hero-lime__ticker-track,
+  .hero-lime__ticker span {
+    gap: 32px;
+  }
+
+  .hero-lime__ticker span {
+    font-size: clamp(30px, 4vw, 42px);
+  }
+}
+
 @media (max-width: 640px) {
   :root {
     --section-space: 64px;
