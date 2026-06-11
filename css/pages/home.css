@@ -409,7 +409,7 @@
 
 .solution-tabs__list li::before {
   color: var(--color-primary);
-  content: "✓";
+  content: "\2713";
   font-weight: 800;
 }
 
@@ -1421,7 +1421,7 @@
   border-radius: 50%;
   background: #050505;
   color: #ffffff;
-  content: "”";
+  content: "\201D";
   font-family: var(--font-display);
   font-size: 30px;
   line-height: 1;
